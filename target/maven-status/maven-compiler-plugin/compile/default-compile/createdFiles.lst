@@ -1,0 +1,4 @@
+pages\RegistrationPage.class
+driver\DriverManager.class
+base\CommonToAllPages.class
+pages\HomePage.class
