@@ -4,8 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testclasses.Registration"/>
-      <class name="base.CommonToAllTest"/>
-      <class name="driver.DriverManager"/>
+     
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
