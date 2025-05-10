@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import base.CommonToAllPages;
+import utils.PropertiesReader;
 
 public class HomePage extends CommonToAllPages{
 	
@@ -21,7 +22,7 @@ public class HomePage extends CommonToAllPages{
 		
 		
 		
-		driver.get("https://tutorialsninja.com/demo/");
+		driver.get(PropertiesReader.readkey("url"));
 		
 		clickElement(myaccount);
 		try {
@@ -36,7 +37,7 @@ public class HomePage extends CommonToAllPages{
 	}
 	
 	public void clickonLoginButton() {
-		driver.get("https://tutorialsninja.com/demo/");
+		driver.get(PropertiesReader.readkey("url"));
 		clickElement(myaccount);
 		clickElement(loginLink);
 	}

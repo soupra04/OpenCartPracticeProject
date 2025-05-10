@@ -5,7 +5,7 @@
     <classes>
       <class name="testclasses.Registration">
         <methods>
-          <include name="loginPage"/>
+          <include name="signUpPage"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
