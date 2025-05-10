@@ -28,7 +28,7 @@ public class RegistrationPage extends CommonToAllPages {
 	  enterInput(phone, "9038479977");
 	  enterInput(pwd, "12345678");
 	  enterInput(cpwd, "12345678");
-	  enterInput(cbox, "12345678");
+	 // enterInput(cbox, "12345678");
   }
   
 }

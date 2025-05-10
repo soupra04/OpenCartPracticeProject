@@ -9,7 +9,7 @@ public class CommonToAllTest {
 	
 	@BeforeMethod
 	public void setup() {
-		DriverManager.init("edge");
+		DriverManager.init("chrome");
 		
 	}
 	
