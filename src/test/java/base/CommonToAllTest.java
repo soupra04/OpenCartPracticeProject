@@ -10,9 +10,9 @@ import org.testng.annotations.Parameters;
 import driver.DriverManager;
 
 public class CommonToAllTest {
-	public Logger logger; //log4j
+	public static Logger logger; //log4j
 	
-	@BeforeMethod
+	@BeforeMethod (groups = "sanity")
 	@Parameters("browser") // 👈 Accept 'browser' parameter from testng.xml
 	public void setup(@Optional("chrome") String browser) {
 		logger = LogManager.getLogger(this.getClass());
@@ -21,7 +21,7 @@ public class CommonToAllTest {
 		
 	}
 	
-	@AfterMethod
+	@AfterMethod (groups = "sanity")
 	public  void tearDown() {
 		DriverManager.tearDown();
 		

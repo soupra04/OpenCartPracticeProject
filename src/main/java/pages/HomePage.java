@@ -39,6 +39,12 @@ public class HomePage extends CommonToAllPages{
 	public void clickonLoginButton() {
 		driver.get(PropertiesReader.readkey("url"));
 		clickElement(myaccount);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		clickElement(loginLink);
 	}
 

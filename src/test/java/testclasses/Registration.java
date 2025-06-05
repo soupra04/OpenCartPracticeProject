@@ -10,7 +10,7 @@ import pages.RegistrationPage;
 
 public class Registration extends CommonToAllTest{
 	
-	@Test
+	@Test(groups="Regression")
 	public void signUpPage() {
 		logger.info("*****stratting test case execution*****");
 		HomePage homepage = new HomePage(DriverManager.driver);
