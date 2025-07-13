@@ -2,34 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-11T21:10:44 IST" name="Suite" finished-at="2025-05-11T21:10:50 IST" duration-ms="6188">
+  <suite started-at="2025-06-08T13:25:20 IST" name="Default suite" finished-at="2025-06-08T13:25:31 IST" duration-ms="10709">
     <groups>
-      <group name="sanity">
-        <method signature="LoginTest.login()[pri:0, instance:testclasses.LoginTest@20bd8be5]" name="login" class="testclasses.LoginTest"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-05-11T21:10:44 IST" name="chrome Test" finished-at="2025-05-11T21:10:50 IST" duration-ms="6188">
-      <class name="testclasses.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testclasses.LoginTest@20bd8be5]" started-at="2025-05-11T21:10:44 IST" name="setup" finished-at="2025-05-11T21:10:47 IST" duration-ms="2695" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-06-08T13:25:20 IST" name="Default test" finished-at="2025-06-08T13:25:31 IST" duration-ms="10709">
+      <class name="testclasses.TestAddtoCartOption">
+        <test-method signature="addToCart()[pri:0, instance:testclasses.TestAddtoCartOption@25bcd0c7]" started-at="2025-06-08T13:25:20 IST" name="addToCart" finished-at="2025-06-08T13:25:31 IST" duration-ms="10522" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:testclasses.LoginTest@20bd8be5]" started-at="2025-05-11T21:10:47 IST" name="login" finished-at="2025-05-11T21:10:50 IST" duration-ms="3324" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testclasses.LoginTest@20bd8be5]" started-at="2025-05-11T21:10:50 IST" name="tearDown" finished-at="2025-05-11T21:10:50 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testclasses.LoginTest -->
-    </test> <!-- chrome Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- addToCart -->
+      </class> <!-- testclasses.TestAddtoCartOption -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

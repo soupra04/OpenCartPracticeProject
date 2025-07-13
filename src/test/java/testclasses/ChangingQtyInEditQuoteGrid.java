@@ -19,9 +19,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import base.CommonToAllTest;
 
-public class EditQuoteGrid extends CommonToAllTest {
+public class ChangingQtyInEditQuoteGrid extends CommonToAllTest {
 	static WebDriver driver;
-	static Logger logger = LogManager.getLogger(EditQuoteGrid.class);
+	static Logger logger = LogManager.getLogger(ChangingQtyInEditQuoteGrid.class);
 
 	public static void main(String[] args) {
 
@@ -59,6 +59,7 @@ public class EditQuoteGrid extends CommonToAllTest {
 		WebElement iframeElement = wait.until(
 				ExpectedConditions.presenceOfElementLocated(By.xpath("//iframe[contains(@title, 'Edit Quote')]")));
 		driver.switchTo().frame(iframeElement);
+		
 		logger.info("Edit Quote grid is Opened");
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));

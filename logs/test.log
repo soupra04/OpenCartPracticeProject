@@ -1,43 +1,7 @@
-2025-06-05 21:10:51 INFO  ChangeQtyBasedOnItemType - Row 3 => Margin%: 10.0, CC Total Cost final: 0.0, Expected Total cust price: 0.0, Actual Total cust price: 0.0
-2025-06-05 21:10:51 INFO  ChangeQtyBasedOnItemType - ✅ Row 3: Calculated customer price is accurate.
-2025-06-05 21:10:51 INFO  ChangeQtyBasedOnItemType - 🟡 Row 4 is a SaaS item. Attempting margin update...
-2025-06-05 21:10:51 INFO  ChangeQtyBasedOnItemType - 🖱️ Double-clicked on margin cell in row 4
-2025-06-05 21:10:52 INFO  ChangeQtyBasedOnItemType - ✅ Margin updated to 10% for row 4
-2025-06-05 21:10:52 INFO  ChangeQtyBasedOnItemType - Raw cell texts -Margin%: '10', CC total Cost Final: '7632', Cust Total price: '8480'
-2025-06-05 21:10:52 INFO  ChangeQtyBasedOnItemType - Row 4 => Margin%: 10.0, CC Total Cost final: 7632.0, Expected Total cust price: 848000.0, Actual Total cust price: 8480.0
-2025-06-05 21:10:52 ERROR ChangeQtyBasedOnItemType - ❌ Row 4: Price mismatch. Difference = 839520.0
-2025-06-05 21:10:54 INFO  ChangeQtyBasedOnItemType - ✅ Clicked 'Save' button
-2025-06-05 21:10:56 INFO  ChangeQtyBasedOnItemType - 🛑 Test execution completed and browser closed.
-2025-06-05 21:29:39 INFO  ChangeQtyBasedOnItemType - 🚀 Starting Test Case Execution: Login and Edit Quote
-2025-06-05 21:29:44 INFO  ChangeQtyBasedOnItemType - ✅ Login submitted
-2025-06-05 21:29:52 INFO  ChangeQtyBasedOnItemType - ✅ Navigated to 'VCT Quotes' tab
-2025-06-05 21:29:55 INFO  ChangeQtyBasedOnItemType - ✅ Opened Quote: QT-000101799
-2025-06-05 21:29:58 INFO  ChangeQtyBasedOnItemType - ✅ Clicked on 'Edit Quote' button
-2025-06-05 21:30:05 INFO  ChangeQtyBasedOnItemType - ✅ Switched to Edit Quote iframe
-2025-06-05 21:30:08 INFO  ChangeQtyBasedOnItemType - 📊 Total rows found in grid: 4
-2025-06-05 21:30:08 INFO  ChangeQtyBasedOnItemType - 🔍 Logging Item Types for each row...
-2025-06-05 21:30:09 INFO  ChangeQtyBasedOnItemType - Row 1 | Item Type: Software
-2025-06-05 21:30:09 INFO  ChangeQtyBasedOnItemType - Row 2 | Item Type: SaaS
-2025-06-05 21:30:09 INFO  ChangeQtyBasedOnItemType - Row 3 | Item Type: SaaS
-2025-06-05 21:30:09 INFO  ChangeQtyBasedOnItemType - Row 4 | Item Type: SaaS
-2025-06-05 21:30:09 INFO  ChangeQtyBasedOnItemType - ✏️ Updating Margin % for 'SaaS' item types...
-2025-06-05 21:30:09 INFO  ChangeQtyBasedOnItemType - 🟡 Row 2 is a SaaS item. Attempting margin update...
-2025-06-05 21:30:09 INFO  ChangeQtyBasedOnItemType - 🖱️ Double-clicked on margin cell in row 2
-2025-06-05 21:30:10 INFO  ChangeQtyBasedOnItemType - ✅ Margin updated to 10% for row 2
-2025-06-05 21:30:10 INFO  ChangeQtyBasedOnItemType - Raw cell texts -Margin%: '10', CC total Cost Final: '9400575.000000006', Cust Total price: '57147809.1'
-2025-06-05 21:30:10 INFO  ChangeQtyBasedOnItemType - Row 2 => Margin%: 10.0, CC Total Cost final: 9400575.000000006, Expected Total cust price: 1.044508333333334E7, Actual Total cust price: 5.71478091E7
-2025-06-05 21:30:10 ERROR ChangeQtyBasedOnItemType - ❌ Row 2: Price mismatch. Difference = -4.6702725766666666E7
-2025-06-05 21:30:10 INFO  ChangeQtyBasedOnItemType - 🟡 Row 3 is a SaaS item. Attempting margin update...
-2025-06-05 21:30:10 INFO  ChangeQtyBasedOnItemType - 🖱️ Double-clicked on margin cell in row 3
-2025-06-05 21:30:11 INFO  ChangeQtyBasedOnItemType - ✅ Margin updated to 10% for row 3
-2025-06-05 21:30:11 INFO  ChangeQtyBasedOnItemType - Raw cell texts -Margin%: '10', CC total Cost Final: '0', Cust Total price: '0'
-2025-06-05 21:30:11 INFO  ChangeQtyBasedOnItemType - Row 3 => Margin%: 10.0, CC Total Cost final: 0.0, Expected Total cust price: 0.0, Actual Total cust price: 0.0
-2025-06-05 21:30:11 INFO  ChangeQtyBasedOnItemType - ✅ Row 3: Calculated customer price is accurate.
-2025-06-05 21:30:11 INFO  ChangeQtyBasedOnItemType - 🟡 Row 4 is a SaaS item. Attempting margin update...
-2025-06-05 21:30:11 INFO  ChangeQtyBasedOnItemType - 🖱️ Double-clicked on margin cell in row 4
-2025-06-05 21:30:12 INFO  ChangeQtyBasedOnItemType - ✅ Margin updated to 10% for row 4
-2025-06-05 21:30:12 INFO  ChangeQtyBasedOnItemType - Raw cell texts -Margin%: '10', CC total Cost Final: '7632', Cust Total price: '8480'
-2025-06-05 21:30:12 INFO  ChangeQtyBasedOnItemType - Row 4 => Margin%: 10.0, CC Total Cost final: 7632.0, Expected Total cust price: 8480.0, Actual Total cust price: 8480.0
-2025-06-05 21:30:12 INFO  ChangeQtyBasedOnItemType - ✅ Row 4: Calculated customer price is accurate.
-2025-06-05 21:30:14 INFO  ChangeQtyBasedOnItemType - ✅ Clicked 'Save' button
-2025-06-05 21:30:15 INFO  ChangeQtyBasedOnItemType - 🛑 Test execution completed and browser closed.
+2025-06-25 13:45:43 INFO  CheckSortinginGrid - 🚀 Starting Test Case Execution: Login and Edit Quote
+2025-06-25 13:45:55 INFO  CheckSortinginGrid - ✅ Login submitted
+2025-06-25 13:45:55 INFO  CheckSortinginGrid - ✅ Navigated to 'VCT Quotes' tab
+2025-06-25 13:45:58 INFO  CheckSortinginGrid - ✅ Opened Quote: QT-000101799
+2025-06-25 13:46:02 INFO  CheckSortinginGrid - ✅ Clicked on 'Edit Quote' button
+2025-06-25 13:46:10 INFO  CheckSortinginGrid - ✅ Switched to Edit Quote iframe
+2025-06-25 13:46:13 INFO  CheckSortinginGrid - ✅ Clicked on 'Name' column header for sorting
