@@ -22,7 +22,7 @@ public class SeleniumGridStandaloneTest {
             WebDriver driver = new RemoteWebDriver(new URL(hubUrl), options);
 
             // Navigate to your target URL
-            driver.get("https://computacenterplc--internalcc.sandbox.my.salesforce.com/");
+            driver.get(""); //url is  hidden due to privacy
 
             // Example: Print title
             System.out.println("Page Title: " + driver.getTitle());

@@ -28,7 +28,7 @@ public class LoginInSalesforceWithExcelTest extends CommonToAllTest {
 		driver = new ChromeDriver(options);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
-		driver.get("https://computacenterplc--internalcc.sandbox.my.salesforce.com/");
+		driver.get(""); //url is  hidden due to privacy
 		driver.findElement(By.id("username")).sendKeys(user);
 		driver.findElement(By.id("password")).sendKeys(pwd);
 		driver.findElement(By.name("Login")).submit();

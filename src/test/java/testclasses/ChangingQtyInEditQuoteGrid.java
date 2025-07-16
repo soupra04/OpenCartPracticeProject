@@ -19,6 +19,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import base.CommonToAllTest;
 
+
+//this are not done using POM , Just to demonstrate the workflow
 public class ChangingQtyInEditQuoteGrid extends CommonToAllTest {
 	static WebDriver driver;
 	static Logger logger = LogManager.getLogger(ChangingQtyInEditQuoteGrid.class);
@@ -31,11 +33,11 @@ public class ChangingQtyInEditQuoteGrid extends CommonToAllTest {
 		options.addArguments("--start-maximized");
 		options.addArguments("--disable-notifications");
 		driver = new ChromeDriver(options);
-		driver.get("https://computacenterplc--internalcc.sandbox.my.salesforce.com/");
+		driver.get(""); //url is  hidden due to privacy
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
-		driver.findElement(By.id("username")).sendKeys("soupra.maity@computacenter.com.internalcc");
-		driver.findElement(By.id("password")).sendKeys("Soupr@1234");
+		driver.findElement(By.id("username")).sendKeys(""); //username is  hidden due to privacy
+		driver.findElement(By.id("password")).sendKeys(""); // Password is  hidden due to privacy
 		driver.findElement(By.name("Login")).submit();
 		logger.info("clicked on Submit Button");
 

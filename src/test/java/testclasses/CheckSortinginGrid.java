@@ -32,9 +32,9 @@ public class CheckSortinginGrid extends CommonToAllTest {
         driver = new ChromeDriver(options);
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
-        driver.get("https://computacenterplc--internalcc.sandbox.my.salesforce.com/");
-        driver.findElement(By.id("username")).sendKeys("soupra.maity@computacenter.com.internalcc");
-        driver.findElement(By.id("password")).sendKeys("Soupr@1234");
+        driver.get(""); //url is  hidden due to privacy
+        driver.findElement(By.id("username")).sendKeys(""); //username is  hidden due to privacy
+        driver.findElement(By.id("password")).sendKeys("");// Password is  hidden due to privacy
         driver.findElement(By.name("Login")).submit();
         logger.info("✅ Login submitted");
 
